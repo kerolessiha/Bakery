@@ -1,0 +1,296 @@
+/* start global */
+a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+/* end global */
+.Home {
+  background-image: url(images/drew-coffman-1872.jpg);
+  background-size: cover;
+  height: 600px;
+  background-position: center;
+}
+.nav_bar {
+  display: inline-block;
+  width: 100%;
+
+  text-align: center;
+}
+
+div .nav_elements {
+  display: inline-block;
+  color: white;
+}
+div .nav_elements li {
+  display: inline-block;
+  font-size: 15px;
+  text-align: right;
+  margin: 5px;
+}
+.nav_bar img,
+div .nav_elements li {
+  display: inline-block;
+  vertical-align: middle;
+}
+.nav_bar img {
+  width: 160px;
+  margin-right: 500px;
+  margin-top: 10px;
+}
+div .content {
+  padding-top: 100px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+  font-family: "Alegreya", serif;
+}
+
+div .content button {
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+div .content button.bu2 {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+div .content button.bu1 {
+  background-color: #8e7754;
+  border: none;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+div .content button.bu1:hover {
+  color: black;
+  background-color: white;
+}
+div .content h1 {
+  font-size: 58px;
+  margin-bottom: 18px;
+  line-height: 1.2em;
+  font-family: "Alegreya", serif;
+}
+/* ////////////////////////////////////////////// */
+.Who_we_are {
+  display: inline-block;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 100%;
+}
+.image_holder img {
+  width: 440px;
+  margin-left: 190px;
+}
+.image_holder,
+.data_holder {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 30px;
+}
+.data_holder p {
+  font-weight: normal;
+}
+.info img,
+.info p {
+  display: inline-block;
+  vertical-align: middle;
+}
+.info img {
+  width: 30px;
+  border: 0.5px solid gray;
+  border-radius: 50%;
+}
+.info p {
+  font-weight: normal;
+}
+/* /////////////////////////////////////////////////// */
+.Our_Location {
+  width: 100%;
+  background-color: #eeedeb;
+  height: 470px;
+}
+
+.location_data,
+.location_image {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 150px;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.location_image img {
+  width: 400px;
+}
+/* /////////////////////////////////////////////////////// */
+.Our_Baking {
+  width: 100%;
+  padding: 20px;
+  max-width: 1200px; /* Adjust max-width as needed */
+  margin: 0 auto;
+}
+
+.data {
+  text-align: center;
+}
+.card-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  float: left;
+  width: calc(33.33% - 30px);
+  box-sizing: border-box;
+  margin: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+.clear-fix {
+  clear: both;
+}
+/* /////////////////////////////////////////////////// */
+.Contact {
+  padding-top: 20px;
+  width: 100%;
+  background-color: #eee;
+  height: 500px;
+  margin-top: 20px;
+  margin: auto;
+}
+
+.image-right iframe {
+  width: 450px;
+  margin-right: 50px;
+  padding-bottom: 20;
+}
+
+.image-right,
+.contact-holder {
+  margin: 50px;
+
+  float: left;
+}
+
+.image-right {
+  float: right;
+  margin-right: 100px;
+}
+
+.contact-holder {
+  font-weight: normal;
+  margin-left: 200px;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+}
+
+.details img {
+  width: 30px;
+
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: rgb(95, 68, 33);
+}
+
+.details p {
+  font-weight: normal;
+}
+.contact {
+  clear: both;
+}
+/* ////////////////////////////////////////////////////////// */
+.everything {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(41, 28, 28);
+  margin-top: 0px;
+  color: white;
+}
+
+.everything .part {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 20px;
+}
+.section img {
+  float: left;
+  margin-right: 10px;
+}
+
+.section p {
+  margin-left: 0;
+  margin-top: 0;
+  font-weight: normal;
+  font-size: 15px;
+}
+.section {
+  display: table;
+  width: 100%;
+}
+
+.section img,
+.section p {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+hr {
+  clear: both;
+  margin-top: 10px;
+  width: 250px;
+}
+.part img {
+  width: 30px;
+}
+.clear-fix {
+  clear: both;
+}
+/* ////////////////////////////////////////////// */
+.footer {
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+  background-color: rgb(22, 14, 14);
+  height: 250px;
+}
+
+.footer .mylogo img {
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.footer h6 {
+  margin-bottom: 20px;
+}
+
+.footer .links {
+  text-align: center;
+}
+
+.footer .links li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 30px;
+  padding: 0px;
+}
+
+.footer .links li img {
+  max-width: 50px;
+  border-radius: 50%;
+  color: white;
+  border: 1px solid white;
+}
